@@ -1,5 +1,6 @@
 resource "aws_s3_bucket" "website" {
   bucket = "site-estatico-carlos12365498"
+  force_destroy = true
 }
 
 resource "aws_s3_bucket_acl" "website" {
