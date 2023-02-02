@@ -8,3 +8,9 @@ variable "bucket_tags" {
     Environment = "dev"
   }
 }
+
+variable "aws_region" {
+  description = "aws region"
+  type        = string
+  default     = "us-east-1"
+} 
